@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransferWizard.Abstractions", "TransferWizard.Abstractions\TransferWizard.Abstractions.csproj", "{6B0A6AC4-D045-4FB1-B44D-873FC9134A5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransferWizard.App", "TransferWizard.App\TransferWizard.App.csproj", "{43C39AF2-E520-4505-90D5-BB80B7DAB1B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransferWizard.Integration", "TransferWizard.Integration\TransferWizard.Integration.csproj", "{DEA0E43B-3AAC-4187-B262-1AF1F2582FA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{6B0A6AC4-D045-4FB1-B44D-873FC9134A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B0A6AC4-D045-4FB1-B44D-873FC9134A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B0A6AC4-D045-4FB1-B44D-873FC9134A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C39AF2-E520-4505-90D5-BB80B7DAB1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C39AF2-E520-4505-90D5-BB80B7DAB1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C39AF2-E520-4505-90D5-BB80B7DAB1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C39AF2-E520-4505-90D5-BB80B7DAB1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA0E43B-3AAC-4187-B262-1AF1F2582FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA0E43B-3AAC-4187-B262-1AF1F2582FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA0E43B-3AAC-4187-B262-1AF1F2582FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA0E43B-3AAC-4187-B262-1AF1F2582FA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
